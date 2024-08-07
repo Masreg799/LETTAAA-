@@ -1,0 +1,58 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="babi.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+ <nav class="navbar">
+	<div class="container">
+ 
+		<a href="rawer.html" class="logo">LETTA</a>
+		
+		<ul class="menu">
+			<li><a href="rawer.html">HOME</a></li>
+			<li><a href="bobo.html">ALET</a></li>
+			<li><a href="contact.html">SEMPURNA</a></li>
+			<li><a href="about.html">CANTIK</a></li>
+		</ul>
+ 
+ 
+		<div class="tombol">
+			&#9776;
+		</div>
+ 
+	</div>
+</nav>
+    <div class="block">
+  </div>
+  <div class="center">
+   <audio controls="true">
+    <source src="rawer/bumbum.mp3" type="audio/mpeg">
+</audio>
+</div>
+
+  <div class="left">
+   <h3>SEMPURNAA</h3>
+   <strong><p>Kamu seperti laguu ituuu, kamuu itu sempurnaa charlettaa.</p></strong>
+   </div>
+      <div class="copy">
+  <strong><p>&copy; 2024 Regi</p></strong>
+</div>
+  <script type="text/javascript">
+		// deklarasi tombol dan menu
+		const tombol = document.querySelector('.tombol');
+		const menu = document.querySelector('.menu');
+ 
+		// membuat event click
+		// pada saat tombol di click, tambahkan class aktif pada class menu
+		// saat diklik lagi, maka class aktif dihilangkan dari class menu (toggle)
+		tombol.addEventListener('click', () => {
+			menu.classList.toggle('aktif');
+		});
+</script>
+</body>
+</html>
